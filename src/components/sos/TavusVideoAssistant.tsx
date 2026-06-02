@@ -53,8 +53,8 @@ const TavusVideoAssistant: React.FC<TavusVideoAssistantProps> = ({
 
   // Tavus configuration
   const TAVUS_API_KEY = "830da4642860460b8810fca4237f76e0";
-  const TAVUS_REPLICA_ID = "r6ae5b6efc9d";
-  const TAVUS_PERSONA_ID = "p92039232c9e";
+  const TAVUS_REPLICA_ID = "r9664272580d";
+  const TAVUS_PERSONA_ID = "p78260241e0e";
 
   // Handle fullscreen changes with cross-browser support
   useEffect(() => {
