@@ -1,45 +1,37 @@
+# HealthMatch Sage
 
+HealthMatch Sage is a healthcare-focused web platform built with React + Vite and Supabase for authentication, scheduling, symptom analysis, emergency support, and medical-report interpretation workflows.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Comprehensive Project Report Artifacts
 
-Follow these steps:
+This repository includes a full documentation pack for academic and stakeholder use:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- `generate_healthmatch_report.py` — Python script (using `python-docx`) that generates a **50+ page** polished report
+- `HealthMatch_Sage_Comprehensive_Project_Report_50Pages.docx` — generated main report
+- `DIAGRAMS.md` — ASCII diagram catalog and visual mapping notes
+- `API_SPECIFICATION.md` — endpoint-level API documentation
+- `DATABASE_SCHEMA.md` — schema, relationships, and SQL examples
+- `DEPLOYMENT_GUIDE.md` — environment setup and deployment workflow
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Generate the DOCX Report
 
-# Step 3: Install the necessary dependencies.
+```bash
+pip install python-docx
+python generate_healthmatch_report.py
+```
+
+## Frontend Development
+
+```bash
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Build and Lint
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run lint
+npm run build
+```
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-
+> Note: this repository currently has pre-existing lint issues unrelated to report-generation artifacts.
